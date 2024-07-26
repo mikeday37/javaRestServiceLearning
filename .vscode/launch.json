@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestServiceApplication<rest-service-complete>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.restservice.RestServiceApplication",
+            "projectName": "rest-service-complete",
+            "args": "--server.port=9090",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
